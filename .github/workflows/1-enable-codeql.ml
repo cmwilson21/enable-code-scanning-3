@@ -1,4 +1,4 @@
-lname: Step 1, Enable CodeQL
+name: Step 1, Enable CodeQL
 
 # This step triggers after enabling codeql.
 # This workflow updates from step 1 to step 2.
