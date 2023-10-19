@@ -11,7 +11,7 @@ on:
   workflow_run:
     workflows: [CodeQL]
     types:
-      - completed
+      - in_progress
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
