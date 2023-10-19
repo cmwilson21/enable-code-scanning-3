@@ -8,7 +8,10 @@ lname: Step 1, Enable CodeQL
 on:
   workflow_dispatch:
   # Add events that trigger this workflow.
-  # enable-codeql-event:
+  workflow_run:
+    workflows: [CodeQL]
+    types:
+      - completed
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
